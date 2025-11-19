@@ -1,0 +1,64 @@
+body {
+    margin: 10px;
+    padding: 20px
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+.margen {
+    border: 1px solid #e49696;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 20px;
+}
+
+form {
+    margin-bottom: 16px
+}
+
+label {
+    margin: 10px;
+    padding: 15px;
+}
+
+input {
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 6px;
+}
+
+button {
+    border: 1px solid #c45858;
+    border-radius: 15px;
+    padding: 6px;
+}
+
+button:active {
+    background-color: #46d459;
+}
+
+
+.botones {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 600px
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left
+}

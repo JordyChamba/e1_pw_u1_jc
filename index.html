@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js"></script>
+    <title>Formulario en tiempo real</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Agregar Nombre y Apellido</h1>
+        </header>
+
+        <nav></nav>
+        <div class="margen">
+            <form id="personForm">
+                <label for="firstName">Nombre:</label>
+                <input id="firstName" name="firstName" type="text" required="true">
+
+                <label for="lastName">Apellido:</label>
+                <input id="lastName" name="lastName" type="text" required="true">
+                <div class="botones"><button id="addBtn" onclick="guardar">Agregar</button></div>
+
+            </form>
+
+            <div id="tableContainer">
+                <table id="peopleTable" aria-label="Lista de personas">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Apellido</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+                <div id="emptyMessage" class="empty">No hay registros aún.</div>
+            </div>
+
+        </div>
+        <footer></footer>
+    </div>
+</body>
+
+</html>
